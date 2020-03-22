@@ -1,0 +1,10 @@
+/*
+CSS Style Sheet
+===============
+
+There is very little styling here to keep things simple. Add as you see fit.
+Note: 'pre-line' allows the '\n' character to be honored in the HTML rendering.
+*/
+
+.output {white-space: pre-line; font-family: "courier new"}
+
