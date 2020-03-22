@@ -1,11 +1,40 @@
+<!--
+HTML Output
+===========
+
+This is the HTML file where all your code output appears. Double click/launch 
+this page in any browser.Though you could write JavaScript code here, it is 
+better to keep it in a separate file which is what has been done. You can find 
+the code in code.js.
+
+There are 3 code output areas below and each one cooresponds to the 3 functions
+in code.js. 
+	1) Output 1 occurs when the page is first loaded or refreshed. No user 
+		interaction is required.
+	2) Output 2 occurs only after the user has pressed Submit 2.
+	3) Output 3 can take user input vis Input 3 and executes when Submit 3 is
+			pressed.
+
+If you change the code in code.js you need to reload/refresh the browser window
+to allow the changes to take effect.
+
+Because the is running in a browser , it would normally required that any output
+would required a <br> tag to cause a newline to appear. However, the style has
+been altered so that the '\n' is honored as a new line to keep things simlple.
+
+No CSS file has been included and the <style> tag in the <head> is very simple.
+This keeps you focued on the code and not the UI. If you get to a point where
+you want to dress-up your program then an external CSS is the way to go. There
+is an external CSS file in the <head> tag below but the style.css file is
+empty.
+-->
+
 <!DOCTYPE html>
 <head>
 	<title>JavaScript Coding Output</title>
 	<meta charset="UTF-8">
 	<script type="text/javascript" src="code.js"></script>
-	<style>
-		.output {white-space: pre-line; font-family: "courier new"}
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body onload="Function1()">
 
